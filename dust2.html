@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dust2 — CS2 Nade Rehberi</title>
+  <meta name="description" content="Dust2 haritasında T ve CT tarafı için smoke, flash, molotof pozisyonları ve video rehberleri." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-badge">CS2</span>
+        <span class="logo-label">Nade Rehberi</span>
+      </a>
+      <nav>
+        <a href="index.html">Haritalar</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="breadcrumb">
+    <a href="index.html">Haritalar</a>
+    <span class="sep">›</span>
+    <span class="current">Dust2</span>
+  </div>
+
+  <main>
+
+    <!-- MAP HERO -->
+    <div class="map-hero dust2-art">
+      <div class="map-hero-overlay"></div>
+      <span class="map-label-bg">DUST2</span>
+      <div class="map-hero-content">
+        <h1>Dust2</h1>
+        <p>T ve CT tarafı için smoke, flash ve molotof pozisyonları</p>
+      </div>
+    </div>
+
+    <!-- SIDE SELECTOR -->
+    <div class="side-selector">
+      <button class="side-btn t-btn active" id="btn-T" onclick="selectSide('T')">
+        <span class="dot"></span>
+        T SIDE
+      </button>
+      <button class="side-btn ct-btn" id="btn-CT" onclick="selectSide('CT')">
+        <span class="dot"></span>
+        CT SIDE
+      </button>
+    </div>
+
+    <!-- ══════════════ T SIDE ══════════════ -->
+    <div id="side-T" class="side-panel">
+
+      <div class="nade-tabs" id="tabs-T">
+        <button class="nade-tab active" data-type="smoke"   onclick="selectNade('smoke','T')">💨 Smoke</button>
+        <button class="nade-tab"        data-type="flash"   onclick="selectNade('flash','T')">⚡ Flash</button>
+        <button class="nade-tab"        data-type="molotov" onclick="selectNade('molotov','T')">🔥 Molotof</button>
+        <button class="nade-tab"        data-type="he"      onclick="selectNade('he','T')">💥 HE Bombası</button>
+      </div>
+
+      <!-- T · SMOKE -->
+      <div id="T-smoke" class="nade-content active">
+        <div class="nade-section-header">
+          <span class="nade-section-title">T SIDE — SMOKE POZISYONLARI</span>
+          <span class="nade-count">6 video</span>
+        </div>
+        <div class="video-grid">
+
+          <!-- 1 -->
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/_j7-LhldB5I?rel=0"
+                title="T Site'dan XBox Smoke — Dust2 T Side"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"></iframe>
+            </div>
+            <div class="video-meta">
+              <div class="video-title">T Site'dan XBox Smoke</div>
+              <div class="video-tags">
+                <span class="v-badge smoke">Smoke</span>
+                <span class="v-side">T Side · Mid</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/mUys7lGhgGE?rel=0"
+                title="Dark'dan Mid Door Smoke — Dust2 T Side"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"></iframe>
+            </div>
+            <div class="video-meta">
+              <div class="video-title">Dark'dan Mid Door Smoke</div>
+              <div class="video-tags">
+                <span class="v-badge smoke">Smoke</span>
+                <span class="v-side">T Side · Mid</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/QPNvjYfgCxs?rel=0"
+                title="A Long'dan CT Geçiş ve Short Kapatan Smoke — Dust2 T Side"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"></iframe>
+            </div>
+            <div class="video-meta">
+              <div class="video-title">A Long'dan CT Geçiş & Short Kapatan Smoke</div>
+              <div class="video-tags">
+                <span class="v-badge smoke">Smoke</span>
+                <span class="v-side">T Side · A Long</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/F8hf64g1MTo?rel=0"
+                title="B Site Kapı Smoke — Dust2 T Side"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"></iframe>
+            </div>
+            <div class="video-meta">
+              <div class="video-title">B Site Kapı Smoke</div>
+              <div class="video-tags">
+                <span class="v-badge smoke">Smoke</span>
+                <span class="v-side">T Side · B Site</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/MlWtnjYoNzs?rel=0"
+                title="Short'tan A Side Giriş Smokeları — Dust2 T Side"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"></iframe>
+            </div>
+            <div class="video-meta">
+              <div class="video-title">Short'tan A Side Giriş Smokeları</div>
+              <div class="video-tags">
+                <span class="v-badge smoke">Smoke</span>
+                <span class="v-side">T Side · Short</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/jqLv-cZ9zMg?rel=0"
+                title="Long'dan B Fake Smokeları — Dust2 T Side"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"></iframe>
+            </div>
+            <div class="video-meta">
+              <div class="video-title">Long'dan B Fake Smokeları</div>
+              <div class="video-tags">
+                <span class="v-badge smoke">Smoke</span>
+                <span class="v-side">T Side · A Long</span>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /video-grid -->
+      </div><!-- /T-smoke -->
+
+      <!-- T · FLASH -->
+      <div id="T-flash" class="nade-content">
+        <div class="soon-section">
+          <div class="soon-icon">⚡</div>
+          <h3>Flash Pozisyonları Yakında</h3>
+          <p>T Side Dust2 flash videoları hazırlanıyor</p>
+        </div>
+      </div>
+
+      <!-- T · MOLOTOV -->
+      <div id="T-molotov" class="nade-content">
+        <div class="soon-section">
+          <div class="soon-icon">🔥</div>
+          <h3>Molotof Pozisyonları Yakında</h3>
+          <p>T Side Dust2 molotof videoları hazırlanıyor</p>
+        </div>
+      </div>
+
+      <!-- T · HE -->
+      <div id="T-he" class="nade-content">
+        <div class="soon-section">
+          <div class="soon-icon">💥</div>
+          <h3>HE Bombası Pozisyonları Yakında</h3>
+          <p>T Side Dust2 HE videoları hazırlanıyor</p>
+        </div>
+      </div>
+
+    </div><!-- /side-T -->
+
+
+    <!-- ══════════════ CT SIDE ══════════════ -->
+    <div id="side-CT" class="side-panel" style="display:none;">
+
+      <div class="nade-tabs" id="tabs-CT">
+        <button class="nade-tab active" data-type="smoke"   onclick="selectNade('smoke','CT')">💨 Smoke</button>
+        <button class="nade-tab"        data-type="flash"   onclick="selectNade('flash','CT')">⚡ Flash</button>
+        <button class="nade-tab"        data-type="molotov" onclick="selectNade('molotov','CT')">🔥 Molotof</button>
+        <button class="nade-tab"        data-type="he"      onclick="selectNade('he','CT')">💥 HE Bombası</button>
+      </div>
+
+      <div id="CT-smoke" class="nade-content active">
+        <div class="soon-section">
+          <div class="soon-icon">💨</div>
+          <h3>CT Side Smoke Pozisyonları Yakında</h3>
+          <p>CT Side Dust2 smoke videoları hazırlanıyor</p>
+        </div>
+      </div>
+      <div id="CT-flash" class="nade-content">
+        <div class="soon-section">
+          <div class="soon-icon">⚡</div>
+          <h3>CT Side Flash Pozisyonları Yakında</h3>
+          <p>CT Side Dust2 flash videoları hazırlanıyor</p>
+        </div>
+      </div>
+      <div id="CT-molotov" class="nade-content">
+        <div class="soon-section">
+          <div class="soon-icon">🔥</div>
+          <h3>CT Side Molotof Pozisyonları Yakında</h3>
+          <p>CT Side Dust2 molotof videoları hazırlanıyor</p>
+        </div>
+      </div>
+      <div id="CT-he" class="nade-content">
+        <div class="soon-section">
+          <div class="soon-icon">💥</div>
+          <h3>CT Side HE Pozisyonları Yakında</h3>
+          <p>CT Side Dust2 HE videoları hazırlanıyor</p>
+        </div>
+      </div>
+
+    </div><!-- /side-CT -->
+
+  </main>
+
+  <footer>
+    <p>CS2 Nade Rehberi &copy; 2026 by Haimow &nbsp;·&nbsp; <a href="index.html">← Tüm Haritalar</a></p>
+  </footer>
+
+  <script>
+    var currentSide = 'T';
+
+    function selectSide(side) {
+      currentSide = side;
+      document.getElementById('btn-T').classList.toggle('active', side === 'T');
+      document.getElementById('btn-CT').classList.toggle('active', side === 'CT');
+      document.getElementById('side-T').style.display  = side === 'T'  ? 'block' : 'none';
+      document.getElementById('side-CT').style.display = side === 'CT' ? 'block' : 'none';
+    }
+
+    function selectNade(type, side) {
+      var s = side || currentSide;
+      var tabs = document.querySelectorAll('#tabs-' + s + ' .nade-tab');
+      tabs.forEach(function(t){ t.classList.remove('active'); });
+      var activeTab = document.querySelector('#tabs-' + s + ' .nade-tab[data-type="' + type + '"]');
+      if (activeTab) activeTab.classList.add('active');
+      var panel = document.getElementById('side-' + s);
+      panel.querySelectorAll('.nade-content').forEach(function(c){ c.classList.remove('active'); });
+      var target = document.getElementById(s + '-' + type);
+      if (target) target.classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
