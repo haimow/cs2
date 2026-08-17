@@ -210,19 +210,19 @@ main {
 }
 
 .mirage-art {
-  background-image: url('img/mirage.png');
+  background-image: url('img/mirage.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .dust2-art {
-  background-image: url('img/dust2.png');
+  background-image: url('img/dust2.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .inferno-art {
-  background-image: url('img/inferno.png');
+  background-image: url('img/inferno.jpg');
   background-size: cover;
   background-position: center;
 }
