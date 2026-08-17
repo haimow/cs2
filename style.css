@@ -210,23 +210,21 @@ main {
 }
 
 .mirage-art {
-  background:
-    radial-gradient(ellipse 60% 80% at 35% 45%, rgba(210,160,70,0.55) 0%, transparent 65%),
-    radial-gradient(ellipse 40% 60% at 80% 20%, rgba(150,100,30,0.4) 0%, transparent 55%),
-    linear-gradient(145deg, #7a5a18 0%, #3d2c08 45%, #1a1205 100%);
+  background-image: url('img/mirage.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .dust2-art {
-  background:
-    radial-gradient(ellipse 60% 80% at 60% 50%, rgba(220,180,90,0.5) 0%, transparent 65%),
-    linear-gradient(145deg, #9a7030 0%, #4a3010 50%, #1a1008 100%);
+  background-image: url('img/dust2.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .inferno-art {
-  background:
-    radial-gradient(ellipse 55% 70% at 40% 55%, rgba(240,110,25,0.55) 0%, transparent 60%),
-    radial-gradient(ellipse 35% 50% at 75% 25%, rgba(180,50,10,0.4) 0%, transparent 55%),
-    linear-gradient(145deg, #b83c18 0%, #6a1808 50%, #1a0804 100%);
+  background-image: url('img/inferno.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .map-art-label {
