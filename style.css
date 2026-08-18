@@ -466,18 +466,10 @@ main {
   background: #000;
 }
 
-/* 16:9 card spans full grid width */
-.video-card-wide {
-  grid-column: 1 / -1;
-  width: min(640px, 100%);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* 16:9 Aspect Ratio for regular YouTube videos */
+/* 16:9 video inside a 9:16 card — letterboxed, same height as Shorts cards */
 .video-wrap-landscape {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 177.78%;
   height: 0;
   overflow: hidden;
   background: #000;
@@ -485,9 +477,12 @@ main {
 
 .video-wrap-landscape iframe {
   position: absolute;
-  inset: 0;
+  /* center the 16:9 iframe vertically inside the 9:16 box */
   width: 100%;
-  height: 100%;
+  height: 56.25%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
   border: none;
   display: block;
 }
