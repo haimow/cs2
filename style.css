@@ -467,9 +467,9 @@ main {
 }
 
 /* 16:9 card spans full grid width */
-.video-card:has(.video-wrap-landscape) {
+.video-card-wide {
   grid-column: 1 / -1;
-  max-width: 640px;
+  width: min(640px, 100%);
   margin-left: auto;
   margin-right: auto;
 }
